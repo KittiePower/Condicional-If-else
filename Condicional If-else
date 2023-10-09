@@ -1,0 +1,31 @@
+/******************************************************************************
+Ejemplo Positivo o Negativo 
+Nombre: Elisa Michelle Medina Vázquez 
+Fecha: 26042022
+*******************************************************************************/
+
+#include <iostream>
+/*
+Ejemplo para uso de condicional if-else
+*/
+using namespace std;
+
+int main()
+{
+    int numero;
+
+    
+    cout<<" Escribe un numero"<<endl;
+    cin>>numero;
+    if(numero>0){
+        cout<<"Es positivo"<<endl;
+        
+    }
+    else
+    {
+        cout<<"Es negativo"<<endl;
+    }
+    return 0;
+}
+
+
